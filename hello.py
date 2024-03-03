@@ -3,7 +3,7 @@ from flask import Flask, render_template, request, make_response, redirect, abor
 from flask_bootstrap import Bootstrap
 from flask_moment import Moment
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 bootstrap = Bootstrap(app)
 moment = Moment(app)
